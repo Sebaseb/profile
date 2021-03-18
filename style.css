@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+header {
+  background-color:#BFCDCD;
+}
+
+body {
+  background-color: #EAF6FB;
+  font-family: 'Roboto', sans-serif;
+  font-color: (30,30,30,0.1);
+  font-size: auto;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+h2 {
+  font-weight:100;
+  font-size: 16px;
+}
+
+a {
+  color: #2B6A84;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+a:hover{
+  color: #28373D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.card-blue{
+  background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 9%,#a0d8ef 100%);
+  border: 8px;
+  border-radius: 8px
+  box-shadow: 2px 2px 3px #28373D;
+  text-align: center;
+  padding: 4px 4px;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: #28373D;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+#title-black{
+  color: #0A4646;
+  font-weight: 300;
+}
+.btn-light-blue{
+    background-color: #0CCFCF;
+    color: #0A4646;
+    padding: 5px 5px;
+    border-radius: 4px;
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 16px 16px;
+  }
+
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
